@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "test-yandex"
+version = "0.1.0"
+description = ""
+authors = ["satel31 <blokhnina.tatiana@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "test_yandex"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
