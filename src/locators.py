@@ -9,3 +9,7 @@ class SearchLocators:
 class ImagesLocators:
     ALL_SERVICES = (By.CLASS_NAME, 'services-suggest__list-item-more')
     IMAGES = (By.CSS_SELECTOR, 'div div span a')
+    CATEGORY = (By.CSS_SELECTOR, 'div div div div a')
+    CATEGORY_TEXT = (By.CSS_SELECTOR, '[class="input__control mini-suggest__input"]')
+    PICTURE = (By.CSS_SELECTOR, 'body div div div div div div a')
+    PICTURE_WINDOW = (By.CSS_SELECTOR, '[class="MMImageContainer"]')
