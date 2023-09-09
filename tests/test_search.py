@@ -1,11 +1,12 @@
-from logs import logs
+from src.logs import logs
 from src.pages import SearchPage
 
-URL = 'https://ya.ru/'
-search_word = 'Тензор'
-search_result = 'tensor.ru'
+URL: str = 'https://ya.ru/'
+search_word: str = 'Тензор'
+search_result: str = 'tensor.ru'
 
 def test_yandex_search(browser):
+    """Тестирование Яндекс поиска"""
     logs(info='Тест начат')
     try:
         main_page = SearchPage(browser, URL)

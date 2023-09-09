@@ -1,10 +1,11 @@
-from logs import logs
+from src.logs import logs
 from src.pages import ImagePage
 
-URL = 'https://ya.ru/'
+URL: str = 'https://ya.ru/'
 
 
 def test_yandex_images(browser):
+    """Тестирование Яндекс картинки"""
     logs(info='Тест начат')
     try:
         main_page = ImagePage(browser, URL)
