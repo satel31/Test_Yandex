@@ -172,6 +172,17 @@ files = [
 ]
 
 [[package]]
+name = "logging"
+version = "0.4.9.6"
+description = "A logging module for Python"
+category = "main"
+optional = false
+python-versions = "*"
+files = [
+    {file = "logging-0.4.9.6.tar.gz", hash = "sha256:26f6b50773f085042d301085bd1bf5d9f3735704db9f37c1ce6d8b85c38f2417"},
+]
+
+[[package]]
 name = "outcome"
 version = "1.2.0"
 description = "Capture the outcome of Python function calls."
@@ -378,4 +389,4 @@ h11 = ">=0.9.0,<1"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "8fc4baa4d8807d9429dc78cf8160810e12fcc2f2a0053ff01353c872152a6d39"
+content-hash = "0c231ca610d2dad937ae652fb28f36fb99f12f8faaf027e1ac9e6bb7c6c7e05d"
